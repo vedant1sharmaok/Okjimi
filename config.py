@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", 23053980))
 API_HASH = getenv("API_HASH", 9f7cb9215fa0007089951c86d31d0128)
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", 6670175533:AAHx8MCXwliT7NZE370I2E15Z-Sp5_0V1s4)
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://vedant12ok:vedant@cluster0.hknrwrr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://vedant12ok:vedant@cluster0.h
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", 1001804914326)
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5685358346))
@@ -52,7 +52,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "f337ca6a589d4a2da26c38e
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 60))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 200))
 
 
 # Telegram audio and video file size limit (in bytes)
