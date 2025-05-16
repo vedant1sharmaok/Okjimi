@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", 23053980))
-API_HASH = getenv("API_HASH", 9f7cb9215fa0007089951c86d31d0128)
+API_ID = int(getenv("API_ID", "23053980"))
+API_HASH = getenv("API_HASH", "9f7cb9215fa0007089951c86d31d0128")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", 6670175533:AAHx8MCXwliT7NZE370I2E15Z-Sp5_0V1s4)
+BOT_TOKEN = getenv("BOT_TOKEN", "6670175533:AAHx8MCXwliT7NZE370I2E15Z-Sp5_0V1s4")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://vedant12ok:vedant@cluster0.hknrwrr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
