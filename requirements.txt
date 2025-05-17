@@ -23,4 +23,3 @@ unidecode
 yt-dlp
 youtube-search
 youtube-search-python
-node==16.0.0
